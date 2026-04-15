@@ -1,57 +1,43 @@
-export const navLinks = [
+
+import AlexMorgan from "../assets/AlexMorgan.avif"
+import SophieLee from "../assets/SophieLee.avif"
+export const menuLinks = [
     { name: "Home", href: "#" },
-    { name: "Courses", href: "#" },
-    { name: "Teachers", href: "#" },
+    { name: "Programs", href: "#" },
+    { name: "Trainers", href: "#" },
     { name: "Pricing", href: "#" },
     { name: "Contact", href: "#" },
 ];
 
-export const courses = [
+export const programs = [
     {
-        title: "Frontend Basics",
-        description: "Learn HTML, CSS, JavaScript and React basics.",
-        image:
-            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-        level: "Beginner",
+        title: "Strength Training",
+        description: "Build muscle and improve your full body strength.",
+        icon: "🏋️",
     },
     {
-        title: "UI Design Essentials",
-        description: "Understand layout, colors, spacing and user experience.",
-        image:
-            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-        level: "Intermediate",
+        title: "Yoga Class",
+        description: "Increase flexibility and relax your mind and body.",
+        icon: "🧘",
     },
     {
-        title: "Team Project Practice",
-        description: "Build small projects with your classmates step by step.",
-        image:
-            "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
-        level: "All Levels",
+        title: "Cardio Workout",
+        description: "Boost endurance and improve heart health.",
+        icon: "🏃",
     },
 ];
 
-export const benefits = [
+export const trainers = [
     {
-        icon: "📚",
-        title: "Easy Lessons",
-        description: "Simple and clear lessons for students who are just starting.",
+        name: "Alex Morgan",
+        specialty: "Strength Coach",
+        image: AlexMorgan,
     },
     {
-        icon: "👩‍🏫",
-        title: "Friendly Teachers",
-        description: "Supportive teachers who explain step by step.",
-    },
-    {
-        icon: "💻",
-        title: "Practice Projects",
-        description: "Students build real small projects after each lesson.",
+        name: "Sophie Lee",
+        specialty: "Yoga Trainer",
+        image: SophieLee
     },
 ];
 
-export const footerLinks = [
-    "About Us",
-    "Courses",
-    "Blog",
-    "Help Center",
-    "Privacy Policy",
-];
+export const footerItems = ["About", "Classes", "Membership", "Support"];
