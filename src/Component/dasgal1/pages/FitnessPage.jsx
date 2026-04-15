@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Topbar";
 import Banner from "../components/Intro";
-import CourseList from "../components/Programlist";
+import CourseList from "../components/ProgramList";
 import WhyChooseUs from "../components/TrainerSection";
 import Footer from "../components/BottomFooter";
 
