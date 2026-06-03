@@ -1,1 +1,5 @@
+/* Tailwind's single import generates all utility classes used in the JSX.
+   Change colors, spacing, and responsive layout mainly by editing className
+   strings in the React components. Add custom global CSS below only if a
+   design cannot be made cleanly with Tailwind utilities. */
 @import "tailwindcss";
